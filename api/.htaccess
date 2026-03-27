@@ -4,6 +4,6 @@ RewriteEngine On
 # Strip .php extension
 # /api/articles     → /api/articles.php
 # /api/manuscripts  → /api/manuscripts.php
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^([^/]+)$ $1.php [L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME}.php -f
+# RewriteRule ^([^/]+)$ $1.php [L]

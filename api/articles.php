@@ -18,6 +18,7 @@ $allowed = [
     'http://localhost:3000',
     'http://localhost:8001',
     'https://afrikascholars.com',
+    'https://afrika-scholar.vercel.app'
 ];
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
 header('Access-Control-Allow-Origin: ' . (in_array($origin, $allowed) ? $origin : '*'));
